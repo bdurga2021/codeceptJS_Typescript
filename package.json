@@ -1,0 +1,25 @@
+{
+  "name": "patriotsWAT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist/",
+    "clean-build": "npm run clean && npm run build",
+    "test": "npm run clean && npm run build && codeceptjs run --steps --verbose  --plugins allure",
+    "report": "allure serve output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mochawesome": "^6.3.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.1.3",
+    "puppeteer": "^10.4.0"
+  }
+}

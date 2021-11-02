@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "lib": ["es2019"],
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
