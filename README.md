@@ -49,7 +49,4 @@ Run only `@example` Scenarios
 npm run clean && npm run build && codeceptjs run --steps --verbose  --plugins allure --grep @example
 
 ```
-## Reports
-```
-<img width="1440" alt="Screen Shot 2021-11-01 at 11 19 51 PM" src="./img.png">
-```
+
