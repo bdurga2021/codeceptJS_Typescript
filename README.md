@@ -49,3 +49,7 @@ Run only `@example` Scenarios
 npm run clean && npm run build && codeceptjs run --steps --verbose  --plugins allure --grep @example
 
 ```
+## Reports
+```
+![img.png](img.png)
+```

@@ -1,5 +1,3 @@
-/// <reference types='codeceptjs' />
-type steps_file = typeof import('./steps_file.js');
 
 /// <reference types='codeceptjs' />
 type addUserPage = typeof import('../pages/addUser');
