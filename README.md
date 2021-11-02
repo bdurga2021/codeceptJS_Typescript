@@ -51,6 +51,5 @@ npm run clean && npm run build && codeceptjs run --steps --verbose  --plugins al
 ```
 ## Reports
 ```
-<img width="1440" alt="Screen Shot 2021-11-01 at 11 19 51 PM" src="https://user-images.githubusercontent.com/93564605/139796977-31ea27db-0032-4575-85b5-ade54768fbb0.png">
-
+<img width="1440" alt="Screen Shot 2021-11-01 at 11 19 51 PM" src="./img.png">
 ```
