@@ -14,12 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mochawesome": "^6.3.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.4.4"
-  },
-  "devDependencies": {
-    "codeceptjs": "^3.1.3",
-    "puppeteer": "^10.4.0"
+    "@types/node": "^17.0.25",
+    "codeceptjs": "^3.3.0",
+    "mochawesome": "^7.1.3",
+    "puppeteer": "^13.5.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   }
 }
